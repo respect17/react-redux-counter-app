@@ -9,9 +9,9 @@ const Counter = () => {
 
     return (
         <div>
-            <button onClick={() => dispatch(decrement())}>-</button>
+            <button className="px-4 py-2 bg-blue-500 text-white rounded" onClick={() => dispatch(decrement())}>-</button>
             <span>{count}</span>
-            <button onClick={() => dispatch(increment())}>+</button>
+            <button className="px-4 py-2 bg-blue-500 text-white rounded" onClick={() => dispatch(increment())}>+</button>
         </div>
     );
 };
